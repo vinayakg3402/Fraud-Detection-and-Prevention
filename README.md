@@ -1,10 +1,33 @@
-# Fraud-Detection-and-Prevention
-Idea brief : 
-Our idea leverages machine learning to enhance fraud detection and prevention in financial transactions. By integrating real-time data analytics, anomaly detection algorithms, and a continuously learning AI model, we aim to identify and mitigate fraudulent activities promptly. The system analyzes transaction patterns, user behaviors, and historical data to flag suspicious activities and provide actionable insights, ensuring enhanced security and reduced financial losses.
+# Fraud Detection Delta Hacks 2020: Project Apati
+## Inspiration 
+Fraud is a crime that can impact any Canadian, regardless of their education, age or income. 
+From January 2014 to December 2017, Canadians lost more than $405 million to fraudsters. ~ [Statistic Info](https://www.competitionbureau.gc.ca/eic/site/cb-bc.nsf/eng/04334.html)
 
-Tech Stack : 
-Python, TensorFlow, Keras, Pandas, Scikit-learn
+We wanted to develop technology that detects potentially fraudulent activity and give account owners the ability to cancel such transactions. 
 
+## How it works
+Using scikit-learn, we were able to detect patterns in a user's previous banking data provided by TD's davinci API. 
+We examined categories such as the location of the purchase, the cost of the purchase, and the purchase category. Afterwards, we determined certain parameters for the cost of purchase based on the purchase category, and purchase locations to validate transactions that met the requirements. Transactions that were made outside of these parameters were deemed suspicious activity and an alert is sent to the account owner, providing them with the ability to validate/decline the purchase. If the transaction is approved, it is added to the MongoDB database with the rest of the user's previous transactions.
 
-Positive and unique solutions : 
-One innovative solution for hackathon fraud detection and prevention involves implementing a multi-layered verification system that combines technological and human elements. Firstly, participants could be required to undergo a thorough registration process that includes identity verification through government-issued IDs or biometric data. Secondly, during the hackathon itself, real-time monitoring of participants' activities could be conducted using AI-powered tools to detect suspicious patterns such as unusually high productivity or non-human interaction. Moreover, integrating blockchain technology for transparent and immutable record-keeping of submissions and team interactions could enhance trust and accountability. Finally, establishing a dedicated team of moderators and judges to oversee the event and promptly investigate any reported anomalies could provide an added layer of security. By combining these approaches, we can create a robust framework that mitigates fraud risks while promoting a fair and competitive hackathon environment.
+## Challenges we ran into
+Initially, we tried to use Tensorflow for our ML model to analyze the user's previous banking history to find patterns and make the parameters. However, we were having difficulty correctly implementing it and there were mistakes being made in the model. This is why we decided to switch to scikit-learn, which our team had success using and our ML model turned out as we had expected.
+
+## Accomplishments that we are proud of
+Learning to use and implement Machine Learning with such a large data set that we were provided with. Training the model to detect suspicious activity was finally achieved after several attempts.
+
+## What we learned
+Handling large data files.
+Pattern detection/Data Analysis.
+Data Interpretation and Model development.
+
+## What's next for Project Apati
+Improving the model by looking at other categories in the data to refine the model based on other transactions statistics. Providing more user's data to improve the training and testing data-set for the model.
+
+## TD's da-vinci API + Data sets
+[TD davinci API](https://td-davinci.com/)
+
+## Presentation Link
+[Presentation Slide Show](https://slides.com/malharshah/deck#/projectapati)
+
+## Devpost Link
+[Devpost](https://devpost.com/software/frauddetectiondeltahacks2020)
