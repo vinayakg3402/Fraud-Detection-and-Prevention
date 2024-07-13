@@ -1,4 +1,4 @@
-# Fraud Detection Delta Hacks 2020: Project Apati
+# Fraud Detection Delta Hacks 2020: Project SafeScan
 ## Inspiration 
 Fraud is a crime that can impact any Canadian, regardless of their education, age or income. 
 From January 2014 to December 2017, Canadians lost more than $405 million to fraudsters. ~ [Statistic Info](https://www.competitionbureau.gc.ca/eic/site/cb-bc.nsf/eng/04334.html)
@@ -20,14 +20,5 @@ Handling large data files.
 Pattern detection/Data Analysis.
 Data Interpretation and Model development.
 
-## What's next for Project Apati
+## What's next for Project SafeScan
 Improving the model by looking at other categories in the data to refine the model based on other transactions statistics. Providing more user's data to improve the training and testing data-set for the model.
-
-## TD's da-vinci API + Data sets
-[TD davinci API](https://td-davinci.com/)
-
-## Presentation Link
-[Presentation Slide Show](https://slides.com/malharshah/deck#/projectapati)
-
-## Devpost Link
-[Devpost](https://devpost.com/software/frauddetectiondeltahacks2020)
