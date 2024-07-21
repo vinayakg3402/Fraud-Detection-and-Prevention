@@ -9,6 +9,8 @@ We wanted to develop technology that detects potentially fraudulent activity and
 Using scikit-learn, we were able to detect patterns in a user's previous banking data provided by TD's davinci API. 
 We examined categories such as the location of the purchase, the cost of the purchase, and the purchase category. Afterwards, we determined certain parameters for the cost of purchase based on the purchase category, and purchase locations to validate transactions that met the requirements. Transactions that were made outside of these parameters were deemed suspicious activity and an alert is sent to the account owner, providing them with the ability to validate/decline the purchase. If the transaction is approved, it is added to the MongoDB database with the rest of the user's previous transactions.
 
+## Data set from the YouData.ai : https://drive.google.com/file/d/1zDX1DpV99Xz8uGPbeH__j8jR5ip0C4uB/view?usp=drivesdk
+
 ## Challenges we ran into
 Initially, we tried to use Tensorflow for our ML model to analyze the user's previous banking history to find patterns and make the parameters. However, we were having difficulty correctly implementing it and there were mistakes being made in the model. This is why we decided to switch to scikit-learn, which our team had success using and our ML model turned out as we had expected.
 
