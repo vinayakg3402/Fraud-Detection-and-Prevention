@@ -1,4 +1,4 @@
-# Fraud Detection Delta Hacks 2020: Project SafeScan
+# Fraud Detection and Prevention 2024: Project SafeScan
 ## Inspiration 
 Fraud is a crime that can impact any Canadian, regardless of their education, age or income. 
 From January 2014 to December 2017, Canadians lost more than $405 million to fraudsters. ~ [Statistic Info](https://www.competitionbureau.gc.ca/eic/site/cb-bc.nsf/eng/04334.html)
